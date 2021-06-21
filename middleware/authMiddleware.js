@@ -1,5 +1,5 @@
 const jwt = require("jsonwebtoken");
-const jwtKey = "yuratab71";
+const jwtKey = "*******";
 
 module.exports = (req, res, next) => {
   if (req.method === "OPTIONS") {
