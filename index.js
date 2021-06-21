@@ -9,7 +9,7 @@ const Items = require("./models/items");
 const { passwordValidator, emailValidator } = require("./validators");
 const authMiddleware = require("./middleware/authMiddleware");
 
-const jwtKey = "yuratab71";
+const jwtKey = "*******";
 
 const PORT = process.env.PORT || 8080;
 
